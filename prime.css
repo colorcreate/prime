@@ -1,0 +1,65 @@
+body{
+	background-color: #ffbc47;
+	font-family: 'Lato', sans-serif;
+	color: #4f3050;
+}
+
+#middle{
+	width: 100%;
+	margin:auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#title{
+	font-size: 40px;
+	font-family: 'Baloo Bhaijaan', cursive;
+	color:#4f3050;
+	/*text-shadow:1px 1px 2px #999999;*/
+}
+
+#description{
+
+}
+
+
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size: 40px;
+    border: none;
+    background-color: #ffbc47;
+    border-bottom: 2px dashed #e84f61;
+    width: 30%;
+    color: #e84f61;
+    text-align: center;
+}
+
+input[type=text]:focus{
+	outline: none;
+}
+
+#tes{
+	background-color: #4f3050;
+	color: #ffbc47;
+	width: 100px;
+	margin:auto;
+	padding: 5px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	box-shadow: 0px 0px 5px grey;
+}
+
+#tes:hover{
+	box-shadow: 0px 0px 10px white;
+	cursor:pointer;
+}
+
+#result{
+	background-color: white;
+	width: 30%;
+	margin:auto;
+	padding: 10px;
+	font-size: 24px;
+	box-shadow: 5px 5px 5px #e5a639;
+}
